@@ -15,4 +15,4 @@ fi
 cd ${HOMEDIR}
 
 # 只输出日志
-pm2 logs --lines 50
+tail -f /dev/null
